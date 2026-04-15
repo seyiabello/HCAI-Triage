@@ -96,10 +96,10 @@ The system is structured as a pipeline of modular components:
 ## 📊 Example Prediction
 
 ### Request
-![Request Example](architecture/request.png)
+![Request Example](architecture/request.PNG)
 
 ### Response
-![Response Example](architecture/response.png)
+![Response Example](architecture/response.PNG)
 
 The system:
 - identifies key risk factors  
