@@ -1,0 +1,17 @@
+{
+  "patient_id": "P001",
+  "risk_score": 0.75,
+  "confidence": 0.91,
+  "risk_level": "high",
+  "recommendation": "Same-day remote or in-person GP assessment",
+  "recommended_action": "Arrange urgent clinician follow-up",
+  "explanation": "Risk is elevated due to high heart rate, low HRV, low sleep, low activity, shortness of breath. The estimated confidence is 0.91, so the system recommends: Same-day remote or in-person GP assessment. Clinician review is advised to support safe decision-making.",
+  "top_factors": [
+    "high heart rate",
+    "low HRV",
+    "low sleep",
+    "low activity",
+    "shortness of breath"
+  ],
+  "clinician_review_required": true
+}

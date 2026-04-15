@@ -1,0 +1,17 @@
+{
+  "patient_id": "P001",
+  "age": 54,
+  "heart_rate": 108,
+  "hrv": 22,
+  "sleep_hours": 4.5,
+  "steps": 1800,
+  "spo2": 94,
+  "symptoms": "shortness of breath and fatigue",
+  "medical_history": ["hypertension"],
+  "patient_preferences": {
+    "avoid_hospital": false,
+    "cost_sensitive": true,
+    "prefers_remote": true
+  },
+  "clinician_override_requested": false
+}
