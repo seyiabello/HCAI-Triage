@@ -5,7 +5,7 @@
 
 ## 🚀 Overview
 
-HCAI-Triage is a **production-oriented AI system prototype** designed to support remote healthcare triage and early risk detection.
+HCAI-Triage is a **production-oriented AI system prototype** designed to support remote healthcare triage and early risk detection. Built as a modular system using FastAPI, designed for safe deployment in healthcare environments.
 
 The system focuses on **safe, interpretable, and human-centred decision-making**, enabling clinicians to make better-informed decisions while maintaining full control over outcomes.
 
@@ -52,6 +52,17 @@ This enables:
 
 ---
 
+## ⚙️ How It Works
+
+1. Input patient data via API
+2. Compute interpretable risk score
+3. Apply decision policy logic
+4. Adjust based on preferences
+5. Generate explanation
+6. Escalate to clinician if required
+
+---
+
 ## 🏗️ System Architecture
 
 ![System Architecture](architecture/architecture.png)
@@ -68,6 +79,15 @@ The system is structured as a pipeline of modular components:
 8. **Explainability & Output Generation** – produces reasoning  
 9. **Clinician Review & Override** – ensures human control  
 10. **Client / Healthcare Integration** – supports real workflows  
+
+---
+
+## 🧠 Design Decisions
+
+- Separated risk estimation from decision-making to improve flexibility and safety
+- Included clinician override to prevent over-reliance on AI
+- Designed for interpretability over black-box optimisation
+- Structured as modular components for easier scaling and maintenance
 
 ---
 
